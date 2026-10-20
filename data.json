@@ -1,0 +1,342 @@
+{
+  "site": {
+    "title": "Qinyi 楊沁怡 — Architecture Portfolio",
+    "logo": "Qinyi",
+    "copyright": "© 2026 Yang Qinyi 楊沁怡"
+  },
+
+  "profile": {
+    "name": "Qinyi",
+    "greeting": "Hey, there",
+    "photo": "images/profile-cutout.png",
+    "photoAlt": "Portrait of Yang Qinyi (Quinn)",
+    "status": "Available for internships & projects",
+    "specialty": "Specialized in Architectural Design, BIM Modelling with Revit, and Construction Management.",
+    "role": ["Architectural", "& BIM", "Designer"],
+    "subtitle": "楊沁怡 Quinn · 國立臺灣大學 土木系 營建管理與工程組 碩士班"
+  },
+
+  "projects": {
+    "subtitle": "設計作品 · Studio work from the Department of Architecture, NTUST",
+    "items": [
+      {
+        "slug": "youth-hostel",
+        "category": "Youth Hostel",
+        "title": "Zhongshan International Youth Hostel",
+        "titleZh": "中山國際青年旅舍",
+        "image": "images/hostel-hero.jpg",
+        "description": "Concept “Holding Hands” — one person needs both hands to be strong, and a group is stronger still. The handshake shapes the façade; inside, guests can rest alone or share space with friends, with planted terraces on every level.",
+        "tags": ["Zhongshan, Taipei", "6F + B1", "Revit · Lumion"],
+        "details": {
+          "facts": [
+            { "label": "Location", "value": "Lane 46, Zhongshan N. Rd. Sec. 2, Taipei" },
+            { "label": "Type", "value": "Youth hostel" },
+            { "label": "Scale", "value": "6 floors + basement" },
+            { "label": "Tools", "value": "Revit · Lumion" }
+          ],
+          "sections": [
+            {
+              "heading": "Concept — Holding Hands",
+              "text": "Two hands clasped together: one person needs both hands to be strong, and a group is stronger still. The handshake shapes the building's exterior. Inside, guests can rest on their own or share space with friends — a place that offers good service, a pleasant environment and the togetherness a group needs."
+            },
+            {
+              "heading": "Site",
+              "text": "A 4–6 minute walk from Zhongshan and Shuanglian MRT stations, surrounded by shopping, hotels, salons and food streets with a young crowd."
+            },
+            {
+              "heading": "Design",
+              "text": "Curtain-wall glazing brings ventilation and daylight into the rooms, and planted terraces on every level give the building warmth. A rooftop café and terrace offer a shared place to meet."
+            }
+          ],
+          "images": [
+            { "src": "images/hostel-1.jpg", "caption": "Street view of the hostel" },
+            { "src": "images/hostel-2.jpg", "caption": "Aerial corner view" },
+            { "src": "images/hostel-plan.jpg", "caption": "Ground floor plan · 1:100" },
+            { "src": "images/hostel-3.jpg", "caption": "Shared dormitory room" },
+            { "src": "images/hostel-4.jpg", "caption": "Rooftop café and terrace" }
+          ]
+        }
+      },
+      {
+        "slug": "glory-building",
+        "category": "Education",
+        "title": "Glory Building — NTUST Digital Construction Center",
+        "titleZh": "光榮大樓 台科大數位構築中心",
+        "image": "images/glory-hero.jpg",
+        "description": "Concept “The Graduation Cap” — a glazed cylindrical core forms the daylit crown of the building, while two wings hold studios, workshops, a library and research spaces around campus plazas.",
+        "tags": ["NTUST Hsinchu Campus", "School architecture"],
+        "details": {
+          "facts": [
+            { "label": "Location", "value": "NTUST Hsinchu Campus" },
+            { "label": "Type", "value": "Education & research" },
+            { "label": "Tools", "value": "Revit · Lumion" }
+          ],
+          "sections": [
+            {
+              "heading": "Concept — The Graduation Cap",
+              "text": "The design is inspired by a graduation cap. The glazed cylindrical core — the crown of the cap — is the daylit heart of the building, while the two wings on either side hold teaching and research spaces."
+            },
+            {
+              "heading": "Programme",
+              "text": "Lobby, administration, R&D studios, workshops, equipment and material storage, discussion rooms, undergraduate studios, a photography area, library and multi-purpose rooms — organised around campus pedestrian routes and plazas."
+            }
+          ],
+          "images": [
+            { "src": "images/glory-1.jpg", "caption": "Aerial site view" },
+            { "src": "images/glory-2.jpg", "caption": "Glazed atrium interior" },
+            { "src": "images/glory-3.jpg", "caption": "North elevation rendering" }
+          ]
+        }
+      },
+      {
+        "slug": "dawn-light-church",
+        "category": "Religious",
+        "title": "Dawn Light Church",
+        "titleZh": "曦光教堂 · 都市中的宗教建築",
+        "image": "images/church-hero.jpg",
+        "description": "Concept “Light” — celebrating morning light and its daily changes. A central courtyard ties classrooms, an auditorium and the sanctuary together into a pure, bright home for anyone walking through darkness.",
+        "tags": ["Aiguo W. Rd., Taipei", "Church"],
+        "details": {
+          "facts": [
+            { "label": "Location", "value": "Aiguo W. Rd. & Guangzhou St., Taipei" },
+            { "label": "Type", "value": "Christian church" },
+            { "label": "Style", "value": "Modern" }
+          ],
+          "sections": [
+            {
+              "heading": "Concept — Light",
+              "text": "The design celebrates morning light, sunlight and the everyday changes of light. When people are under pressure or walking through darkness, a church should be the first place they think of — a pure, bright place."
+            },
+            {
+              "heading": "A Place of Warmth",
+              "text": "Whatever burdens you carry, coming to the church should bring a warm and happy moment, and anyone can come here to help those in need. A central courtyard ties together classrooms, an auditorium and the main sanctuary."
+            }
+          ],
+          "images": [
+            { "src": "images/church-2.jpg", "caption": "Aerial view of the church" },
+            { "src": "images/church-1.jpg", "caption": "Sanctuary interior" },
+            { "src": "images/church-3.jpg", "caption": "Central courtyard" },
+            { "src": "images/church-4.jpg", "caption": "Exterior with garden" }
+          ]
+        }
+      },
+      {
+        "slug": "ocean-culture-museum",
+        "category": "Museum",
+        "title": "Mao'ao Ocean Culture Museum",
+        "titleZh": "卯不隆冬 · 海洋文化館",
+        "image": "images/ocean-hero.jpg",
+        "description": "“Blending Nature and Culture: Heritage and Innovation.” Celebrating Mao'ao Bay's fishing culture through interactive exhibits and education, raising awareness of ocean protection and sustainable development.",
+        "tags": ["Mao'ao Bay, New Taipei", "Self-initiated brief"],
+        "details": {
+          "facts": [
+            { "label": "Location", "value": "Mao'ao Bay, New Taipei" },
+            { "label": "Type", "value": "Ocean culture museum" },
+            { "label": "Brief", "value": "Self-initiated" }
+          ],
+          "sections": [
+            {
+              "heading": "Concept — Heritage and Innovation",
+              "text": "“Blending Nature and Culture.” The museum celebrates Mao'ao Bay's fishing culture through interactive exhibits and education."
+            },
+            {
+              "heading": "Purpose",
+              "text": "By bringing visitors to the water's edge, the project raises awareness of ocean protection and sustainable development while giving the fishing village a new place to share its story."
+            }
+          ],
+          "images": [
+            { "src": "images/ocean-site.jpg", "caption": "Site plan of Mao'ao Bay" },
+            { "src": "images/ocean-1.jpg", "caption": "Aerial view of the museum" },
+            { "src": "images/ocean-2.jpg", "caption": "Entrance hall with spiral stair" },
+            { "src": "images/ocean-3.jpg", "caption": "Café overlooking the bay" }
+          ]
+        }
+      },
+      {
+        "slug": "anping-exhibition-hall",
+        "category": "Exhibition",
+        "title": "Anping Fishery & Fish Exhibition Hall",
+        "titleZh": "3D互動 — 安平漁與魚展覽館",
+        "image": "images/fish-hero.jpg",
+        "description": "Concept “Water” — the form is drawn from waves, spheres on the façade read as droplets that filter light, and reflecting pools make the building float. Inside: a 3D interactive fish zone and a water-curtain pool.",
+        "tags": ["Anping Harbour, Tainan", "Museum"],
+        "details": {
+          "facts": [
+            { "label": "Location", "value": "East side of Anping Harbour, Tainan" },
+            { "label": "Type", "value": "Exhibition hall / museum" },
+            { "label": "Theme", "value": "溯源地域 融合未來" }
+          ],
+          "sections": [
+            {
+              "heading": "Concept — Water",
+              "text": "Anping Harbour cannot be separated from water — its fishery and its fish live in and on the water — so the building's form is drawn from the shapes of waves."
+            },
+            {
+              "heading": "Façade & Light",
+              "text": "The spheres on the façade represent crystal water droplets; light filters through the gaps between them into the interior. Reflecting pools around the base make the building appear to float on water."
+            },
+            {
+              "heading": "Inside",
+              "text": "A 3D interactive fish zone, exhibitions, an indoor water-curtain pool and a seafood restaurant."
+            }
+          ],
+          "images": [
+            { "src": "images/fish-site.jpg", "caption": "Site plan" },
+            { "src": "images/fish-1.jpg", "caption": "Exterior with sphere façade" },
+            { "src": "images/fish-2.jpg", "caption": "3D interactive fish zone" },
+            { "src": "images/fish-3.jpg", "caption": "Indoor water-curtain pool" },
+            { "src": "images/fish-4.jpg", "caption": "Ground-floor reception hall" }
+          ]
+        }
+      },
+      {
+        "slug": "huaxin-street",
+        "category": "Urban Plan",
+        "title": "Huaxin Street Commercial District Renewal",
+        "titleZh": "商圈改造 · 中和華新街（南洋觀光美食街）",
+        "image": "images/street-2.jpg",
+        "description": "A multi-functional place that blends Southeast Asian culture with modern commerce — integrating food, retail and culture to lift the local economy and give residents and visitors a comfortable, attractive public space.",
+        "tags": ["Zhonghe, New Taipei", "Urban renewal"],
+        "details": {
+          "facts": [
+            { "label": "Location", "value": "Huaxin Street, Zhonghe, New Taipei" },
+            { "label": "Type", "value": "Commercial district renewal" },
+            { "label": "Known as", "value": "南洋觀光美食街" }
+          ],
+          "sections": [
+            {
+              "heading": "Vision",
+              "text": "A multi-functional place that blends Southeast Asian culture with modern commerce."
+            },
+            {
+              "heading": "Approach",
+              "text": "Integrating food, retail and culture to lift the local economy and give residents and visitors a comfortable, attractive public space."
+            }
+          ],
+          "images": [
+            { "src": "images/street-1.jpg", "caption": "Huaxin Street today" },
+            { "src": "images/street-2.jpg", "caption": "Street view" },
+            { "src": "images/street-3.jpg", "caption": "Shopfronts along the street" }
+          ]
+        }
+      }
+    ]
+  },
+
+  "services": [
+    {
+      "title": "Architectural Design",
+      "text": "Concept-driven design for hostels, schools, churches and museums — from site analysis to plans, sections and elevations."
+    },
+    {
+      "title": "BIM Modelling",
+      "text": "Autodesk-certified Revit modelling, with hands-on BIM project experience from an internship at a BIM consultancy."
+    },
+    {
+      "title": "3D Visualisation",
+      "text": "Photoreal Lumion renderings of exteriors, interiors and landscapes that tell the story of a space."
+    },
+    {
+      "title": "Construction Management",
+      "text": "Master's research in construction engineering & management at NTU, backed by site work as an engineering assistant."
+    }
+  ],
+
+  "about": {
+    "lead": "I design places where people meet and feel at home.",
+    "paragraphs": [
+      "I'm Yang Qinyi (Quinn), born in northern Myanmar. In 2019 I came to Taiwan for the overseas Chinese preparatory program at NTNU, went on to study architecture at NTUST, and I'm now continuing with construction management research in Civil Engineering at National Taiwan University.",
+      "I'm optimistic and love sharing beautiful things with others. Drawing and calligraphy — especially sketching buildings and landscapes — taught me focus, and architectural design became my favourite subject, which led to my Autodesk certification."
+    ],
+    "image": "images/hostel-1.jpg",
+    "imageAlt": "Street view of the Zhongshan youth hostel",
+    "stats": [
+      { "value": "6+", "label": "Design projects" },
+      { "value": "3+", "label": "Languages" },
+      { "value": "ACU", "label": "Autodesk Revit certified" }
+    ]
+  },
+
+  "experience": [
+    {
+      "period": "2025 — Now",
+      "title": "M.S. Construction Engineering & Management",
+      "zh": "國立臺灣大學 土木系 營建管理與工程組 碩士班二年級",
+      "tags": ["Construction management", "BIM", "Engineering research"]
+    },
+    {
+      "period": "2021 — 2025",
+      "title": "Department of Architecture, NTUST",
+      "zh": "國立臺灣科技大學 建築系",
+      "tags": ["Architectural design", "Revit", "Lumion"]
+    },
+    {
+      "period": "2019 — 2021",
+      "title": "NTNU Preparatory Program for Overseas Chinese Students",
+      "zh": "國立臺灣師範大學 僑生先修部 · 秋季班第二類組結業",
+      "tags": ["Chinese", "Sciences track"]
+    },
+    {
+      "period": "Internship",
+      "title": "BIM Intern, Project Team",
+      "zh": "BIM 台寶科技有限公司 專案組 實習",
+      "tags": ["BIM modelling", "Project coordination"]
+    },
+    {
+      "period": "Work",
+      "title": "Engineering Assistant",
+      "zh": "常鋐營造股份有限公司 工程師助理",
+      "tags": ["Site support", "Construction"]
+    },
+    {
+      "period": "Part-time",
+      "title": "Student Affairs Office Assistant",
+      "zh": "國立臺灣科技大學 學務處 · 臺師大僑生先修部 學務處 工讀",
+      "tags": ["Administration", "Student services"]
+    },
+    {
+      "period": "Leadership",
+      "title": "Myanmar Students Association in Taiwan",
+      "zh": "69屆 留臺緬甸同學會 顧問 · 68屆 會長 · 108級僑先部緬甸同學聯誼會 會長",
+      "tags": ["Advisor (69th)", "President (68th)"]
+    },
+    {
+      "period": "Volunteer",
+      "title": "Volunteering & Clubs",
+      "zh": "高齡夢想社 · 龍門勵學基金會 · 飛雁獎助學金志工 · 書法社 · 攝影社 · 活動規劃社",
+      "tags": ["Community service", "Calligraphy", "Photography"]
+    }
+  ],
+
+  "skills": {
+    "software": ["Autodesk Revit", "Lumion"],
+    "languages": [
+      { "name": "Chinese 中文", "level": "Fluent · writing intermediate" },
+      { "name": "English 英文", "level": "Intermediate · reading fluent" },
+      { "name": "Burmese 緬文", "level": "Native" }
+    ],
+    "certificate": {
+      "title": "Autodesk Certified User",
+      "detail": "Revit® for Architecture · Issued June 14, 2023",
+      "image": "images/certificate.jpg"
+    }
+  },
+
+  "gallery": [
+    { "src": "images/hostel-3.jpg", "alt": "Shared dormitory in the youth hostel" },
+    { "src": "images/glory-2.jpg", "alt": "Glazed atrium of Glory Building" },
+    { "src": "images/church-1.jpg", "alt": "Church sanctuary interior" },
+    { "src": "images/ocean-3.jpg", "alt": "Ocean museum café overlooking the bay" },
+    { "src": "images/fish-2.jpg", "alt": "3D interactive fish zone" },
+    { "src": "images/hostel-4.jpg", "alt": "Rooftop café and terrace" },
+    { "src": "images/ocean-1.jpg", "alt": "Aerial view of the ocean culture museum" },
+    { "src": "images/church-3.jpg", "alt": "Church central courtyard" }
+  ],
+
+  "contact": {
+    "greeting": "Let's talk",
+    "title": "Thank you for taking time to view my portfolio",
+    "lead": "Open to internships, collaborations and studio projects. 謝謝！",
+    "email": "yangginyi28@gmail.com"
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="common.js" defer></script>
+  <script src="project.js" defer></script>
+</head>
+<body>
+  <!-- One page for every project: project.html?p=<slug>.
+       The content comes from that project's "details" in data.json. -->
+
+  <p id="load-error" class="load-error" hidden></p>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html#home" class="nav__logo" id="nav-logo"></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Toggle menu"><span></span></label>
+
+      <nav class="nav__links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#projects">Works</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#contact" class="btn btn--dark nav__cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="detail">
+      <div class="container">
+        <a href="index.html#projects" class="detail__back"><span aria-hidden="true">←</span> All projects</a>
+
+        <header class="detail__head">
+          <span class="project__num" id="detail-num"></span>
+          <h1 class="detail__title" id="detail-title"></h1>
+          <p class="detail__zh" id="detail-zh"></p>
+          <p class="detail__lead" id="detail-lead"></p>
+        </header>
+
+        <dl class="detail__facts" id="detail-facts"></dl>
+      </div>
+
+      <div class="container">
+        <div class="detail__hero" id="detail-hero"></div>
+      </div>
+
+      <div class="container detail__story" id="detail-sections"></div>
+
+      <div class="container">
+        <h2 class="section__title detail__gallery-title">Project Images</h2>
+        <div class="detail__gallery" id="detail-images"></div>
+      </div>
+
+      <nav class="container detail__pager" id="detail-pager" aria-label="More projects"></nav>
+    </section>
+  </main>
+
+  <!-- Full-size image viewer -->
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous image">‹</button>
+    <figure>
+      <img id="lightbox-img" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next image">›</button>
+  </dialog>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="nav__logo" id="footer-logo"></span>
+      <p id="footer-copy"></p>
+    </div>
+  </footer>
+
+</body>
+</html>
