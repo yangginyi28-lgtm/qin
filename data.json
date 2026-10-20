@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Qinyi 楊沁怡 — Architecture Portfolio",
-    "logo": "Qinyi",
-    "copyright": "© 2026 Yang Qinyi 楊沁怡"
+    "title": "Quinn 楊沁怡 — Architecture Portfolio",
+    "logo": "Quinn",
+    "copyright": "© 2026 Quinn 楊沁怡"
   },
 
   "profile": {
-    "name": "Qinyi",
+    "name": "Quinn",
     "greeting": "Hey, there",
     "photo": "images/profile-cutout.png",
-    "photoAlt": "Portrait of Yang Qinyi (Quinn)",
+    "photoAlt": "Portrait of Quinn",
     "status": "Available for internships & projects",
     "specialty": "Specialized in Architectural Design, BIM Modelling with Revit, and Construction Management.",
     "role": ["Architectural", "& BIM", "Designer"],
@@ -245,7 +245,7 @@
   "about": {
     "lead": "I design places where people meet and feel at home.",
     "paragraphs": [
-      "I'm Yang Qinyi (Quinn), born in northern Myanmar. In 2019 I came to Taiwan for the overseas Chinese preparatory program at NTNU, went on to study architecture at NTUST, and I'm now continuing with construction management research in Civil Engineering at National Taiwan University.",
+      "I'm Quinn (Yang Qinyi), born in northern Myanmar. In 2019 I came to Taiwan for the overseas Chinese preparatory program at NTNU, went on to study architecture at NTUST, and I'm now continuing with construction management research in Civil Engineering at National Taiwan University.",
       "I'm optimistic and love sharing beautiful things with others. Drawing and calligraphy — especially sketching buildings and landscapes — taught me focus, and architectural design became my favourite subject, which led to my Autodesk certification."
     ],
     "image": "images/hostel-1.jpg",
@@ -336,7 +336,6 @@
   "contact": {
     "greeting": "Let's talk",
     "title": "Thank you for taking time to view my portfolio",
-    "lead": "Open to internships, collaborations and studio projects. 謝謝！",
-    "email": "yangginyi28@gmail.com"
+    "lead": "謝謝！"
   }
 }
